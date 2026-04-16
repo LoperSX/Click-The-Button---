@@ -49,6 +49,8 @@ body {
 }
 
 .circle:hover {
+    transition: transform 0.3s ease;
+
     background-color: rgb(17, 238, 90);
 
     box-shadow: 0 1px 0.2px rgb(8, 18, 16);
@@ -58,6 +60,8 @@ body {
 }
 
 .circle:active {
+    transition: transform 0.3s ease;
+
     background-color: rgb(39, 255, 111);
 
     box-shadow: 0 6px 0 rgb(11, 121, 48);
