@@ -1,0 +1,93 @@
+body {
+    transition: 0.3s;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+
+    background-color: rgb(39, 255, 111);
+
+    font-family: 'Rubik', 'Noto Sans Arabic', sans-serif;
+}
+
+.circle {
+    z-index: 2;
+
+    background-color: rgb(39, 255, 111);
+    height: 80px;
+    width: 100px;
+
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 3px solid rgb(11, 121, 48);
+
+    box-shadow: 0 6px 0 rgb(11, 121, 48);
+
+    transition: 0.3s;
+}
+
+.circle2 {
+    z-index: 1;
+    background-color: rgb(24, 52, 47);
+    height: 80px;
+    width: 110px;
+
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+
+    border: 3px solid rgb(31, 64, 58);
+
+    box-shadow: 0 6px 0 rgb(13, 28, 25);
+}
+
+.circle:hover {
+    background-color: rgb(17, 238, 90);
+
+    box-shadow: 0 1px 0.2px rgb(8, 18, 16);
+
+    transform: translate(-50%, -43%);
+}
+
+.circle:active {
+    background-color: rgb(39, 255, 111);
+
+    box-shadow: 0 6px 0 rgb(11, 121, 48);
+
+    transform: translate(-50%, -50%);
+}
+
+.Text {
+    z-index: 3;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+
+     font-family: 'Noto Sans Arabic', sans-serif;
+     font-size: 175%;
+
+     color:rgb(6, 116, 43) ;
+}
+
+.Text2 {
+    z-index: 4;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -225%);
+
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 220%;
+
+    color:rgb(6, 116, 43) ;
+}
