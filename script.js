@@ -1,4 +1,4 @@
-let Score = Number(localStorage.getItem("DataScore"));
+let Score = Number(localStorage.getItem("DataScore")) || 0;
 let ShadowColor = 0
 
 document.querySelector(".Text2").innerText = Score
