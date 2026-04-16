@@ -27,7 +27,7 @@ body {
 
     box-shadow: 0 6px 0 rgb(11, 121, 48);
 
-    transition: 0.3s;
+    transition: transform 0.3s ease;
 }
 
 .circle2 {
@@ -54,6 +54,7 @@ body {
     box-shadow: 0 1px 0.2px rgb(8, 18, 16);
 
     transform: translate(-50%, -43%);
+    
 }
 
 .circle:active {
